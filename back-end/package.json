@@ -1,0 +1,28 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1",
+    "babel-jest": "^23.4.0",
+    "bcrypt": "^2.0.1",
+    "jest": "^23.4.1",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "sinon": "^6.1.4",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
